@@ -25,17 +25,27 @@ description: >- # this means to ignore newlines until "baseurl:"
   よろしくお願いします。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-#twitter_username: jekyllrb
-github_username:  kvzz42
+author:
+  name: 祝々
+
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-seo-tag
 
 minima:
   date_format: "%Y年%-m月%-d日"
-  skin: solarized-dark
+  skin: dark
+
+  # Generate social links in footer.
+  social_links:
+    - { platform: discord, user_url: "https://discord.com/users/173218942569938944" }
+    - { platform: github, user_url: "https://github.com/kvzz42" }
+    - { platform: twitter, user_url: "https://twitter.com/zhu__zhu_" }
 
 # Exclude from processing.
 # The following items will not be processed, by default.
