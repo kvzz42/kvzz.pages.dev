@@ -19,12 +19,12 @@
 # in the templates via {{ site.myvariable }}.
 
 title: 祝々の部屋
-#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
   アメリカ生まれ、アメリカ育ちの私、祝々（ズーズー）が語るいろんなコト。主に言語学習や自分の日本語学習者としての経験。
   よろしくお願いします。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
+permalink: /:categories/:year/:month/:day/:title
 author:
   name: 祝々
 
