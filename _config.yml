@@ -27,6 +27,13 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 permalink: /:categories/:year/:month/:day/:title
 author:
   name: 祝々
+show_excerpts: true
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      excerpt_separator: <!--more-->
 
 
 # Build settings
