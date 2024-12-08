@@ -24,10 +24,11 @@ description: >- # this means to ignore newlines until "baseurl:"
   よろしくお願いします。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-permalink: /:categories/:year/:month/:day/:title
+permalink: /:year/:month/:day/:title
 author:
   name: 祝々
 show_excerpts: true
+lang: ja
 defaults:
   -
     scope:
