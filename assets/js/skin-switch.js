@@ -8,3 +8,7 @@ $(function() {
     $('#change-skin').trigger('click');
   }
 });
+
+$().ready(function() {
+  $("body").css({ visibility:'visible' });
+});
