@@ -2,8 +2,6 @@
 layout: page
 ---
 
-{{ content }}
-
 {% assign posts = paginator.posts | default: site.posts %}
 
 <!-- role="list" needed so that `list-style: none` in Safari doesn't remove the list semantics -->
@@ -103,14 +101,14 @@ layout: page
   <li class="page-item previous">
     <a class="page-link" href="{{ paginator.previous_page_path | absolute_url }}">
       <i class="fas fa-arrow-left" alt="Newer Posts"></i>
-      <span class="d-none d-sm-inline-block">Newer Posts</span>
+      <span class="d-none d-sm-inline-block">前へ</span>
     </a>
   </li>
   {% endif %}
   {% if paginator.next_page %}
   <li class="page-item next">
     <a class="page-link" href="{{ paginator.next_page_path | absolute_url }}">
-      <span class="d-none d-sm-inline-block">Older Posts</span>
+      <span class="d-none d-sm-inline-block">次へ</span>
       <i class="fas fa-arrow-right" alt="Older Posts"></i>
     </a>
   </li>
